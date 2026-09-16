@@ -1,0 +1,6 @@
+{
+  "name": "REACT Smart Glasses",
+  "description": "Next-gen cognitive smart glasses designed to sharpen your focus, enhance memory, and accelerate your decision-making in real time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
