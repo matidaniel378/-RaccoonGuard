@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+.mask-gradient-bottom {
+  mask-image: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.4) 12%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 1) 100%);
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.4) 12%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 1) 100%);
+}
+
+.mask-gradient-fade-all {
+  mask-image: linear-gradient(to top, transparent 0%, black 20%, black 90%, transparent 100%),
+              linear-gradient(to left, transparent 0%, black 15%, black 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 20%, black 90%, transparent 100%),
+                      linear-gradient(to left, transparent 0%, black 15%, black 90%, transparent 100%);
+  mask-composite: intersect;
+  -webkit-mask-composite: source-in;
+}

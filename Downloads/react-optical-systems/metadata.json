@@ -1,0 +1,6 @@
+{
+  "name": "REACT Optical Systems",
+  "description": "Commercial-grade smart eyewear designed for optical retail groups, corporate enterprise buyers, and industrial procurement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
